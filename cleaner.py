@@ -53,9 +53,9 @@ def clean_sequences(sequenceFile):
 
 clean_sequences("YOUR_SEQUENCE_FILE:"
                 # format should be:
-                    # > Accession_num_1
+                    # >Accession_num_1
                     # MFVFLVLLPL............
-                    # > Accession_num_2
+                    # >Accession_num_2
                     # MFVFLVLLPL............
                 "")
 
