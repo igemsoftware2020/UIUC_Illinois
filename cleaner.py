@@ -33,6 +33,9 @@ def clean_sequences(sequenceFile):
             if (char_counter - len(sequences)) == 2:
                 sequences.append(sequence)
                 sequence = ''
+                
+        # This code snippet will get the last sequence that the for loop couldn't.
+        sequences.append(sequence)
 
         # Will create xslx file with sequences and accession_ids
         new_file = xlsxwriter.Workbook("formatted_sequences.xlsx")
@@ -48,4 +51,11 @@ def clean_sequences(sequenceFile):
         print(f"Total number of sequences is: {len(sequences)}")
 
 
-clean_sequences("sequences")
+clean_sequences("YOUR_SEQUENCE_FILE:"
+                # format should be:
+                    # > Accession_num_1
+                    # MFVFLVLLPL............
+                    # > Accession_num_2
+                    # MFVFLVLLPL............
+                "")
+
