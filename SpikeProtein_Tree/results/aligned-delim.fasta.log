@@ -1,0 +1,635 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LAPTOP-VUQ1L8NL (AVX2, FMA3, 6 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s results/aligned-delim.fasta -m GTR
+Seed:    329597 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 26 08:04:27 2020
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 561 sequences with 29903 columns, 2745 distinct patterns
+455 parsimony-informative, 1186 singleton sites, 28262 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+   1  MN908947                                          0.00%    passed     99.49%
+   2  Sweden_X_X_20-08073_X_X_2020                      0.00%    passed     99.58%
+   3  Sichuan_X_X_SC-WCH1-005_X_X_2020                  0.00%    passed     99.48%
+   4  Beijing_X_X_DT-travelNO01_X_X_2020                0.00%    passed     99.49%
+   5  Russia_X_X_Chechenya-83801_X_X_2020               0.00%    passed     99.66%
+   6  Israel_X_X_CVL-n-6134_X_X_2020                    0.00%    passed     99.72%
+   7  Sweden_X_X_20-50106_X_X_2020                      0.00%    passed     99.52%
+   8  Sweden_X_X_20-08098_X_X_2020                      0.00%    passed     99.50%
+   9  Sweden_X_X_20-08099_X_X_2020                      0.00%    passed     99.48%
+  10  Sweden_X_X_20-50234_X_X_2020                      0.00%    passed     99.48%
+  11  Sweden_X_X_20-50141_X_X_2020                      0.00%    passed     99.45%
+  12  England_X_X_OXON-B3497_X_X_2020                   0.00%    passed     99.45%
+  13  Sweden_X_X_20-08096_X_X_2020                      0.00%    passed     99.45%
+  14  USA_X_X_NY-NYUMC150_X_X_2020                      0.00%    passed     99.51%
+  15  Russia_X_X_StPetersburg-RII3997_X_X_2020          0.00%    passed     99.66%
+  16  USA_X_X_CA-ALSR-1273_X_X_2020                     0.00%    passed     99.66%
+  17  Switzerland_X_X_GE-HUG-3655_X_X_2020              0.01%    passed     99.46%
+  18  Wales_X_X_PHWC-29335_X_X_2020                     0.19%    passed     99.76%
+  19  Australia_X_X_VIC329_X_X_2020                     0.07%    passed     99.66%
+  20  England_X_X_20098017504_X_X_2020                  0.19%    passed     99.98%
+  21  Australia_X_X_SAP159_X_X_2020                     0.01%    passed     99.51%
+  22  Taiwan_X_X_CGMH-CGU-12_X_X_2020                   0.01%    passed     99.50%
+  23  Australia_X_X_VIC217_X_X_2020                     0.04%    passed     99.57%
+  24  USA_X_X_CA-SR0461_X_X_2020                        0.01%    passed     99.68%
+  25  Wales_X_X_PHWC-30CD6_X_X_2020                     1.27%    passed     99.71%
+  26  Wales_X_X_PHWC-2EA1D_X_X_2020                     1.85%    passed     99.61%
+  27  England_X_X_NORW-EAFA5_X_X_2020                   0.19%    passed     99.66%
+  28  India_X_X_KA-IB44_X_X_2020                        0.10%    passed     99.60%
+  29  Wales_X_X_PHWC-15C462_X_X_2020                    3.56%    passed     98.79%
+  30  France_X_X_IDF-211-80_X_X_2020                    0.05%    passed     99.72%
+  31  USA_X_X_NY-NYUMC439_X_X_2020                      0.00%    passed     99.64%
+  32  USA_X_X_NY-NYUMC161_X_X_2020                      0.00%    passed     99.70%
+  33  USA_X_X_NY-NYUMC43_X_X_2020                       0.00%    passed     99.70%
+  34  USA_X_X_NY-NYUMC654_X_X_2020                      0.00%    passed     99.69%
+  35  USA_X_X_NV-NSPHL-A0071_X_X_2020                   0.02%    passed     99.76%
+  36  USA_X_X_WY-WYPHL-20007413_X_X_2020                0.12%    passed     99.80%
+  37  Australia_X_X_SAP070_X_X_2020                     0.04%    passed     99.66%
+  38  USA_X_X_LA-SR0214_X_X_2020                        0.41%    passed     99.75%
+  39  USA_X_X_TX-DSHS-0185_X_X_2020                     3.28%    passed     98.83%
+  40  USA_X_X_CA-ALSR-0515-SAN_X_X_2020                 0.05%    passed     99.75%
+  41  USA_X_X_CA-SR0178_X_X_2020                        0.30%    passed     99.66%
+  42  USA_X_X_NY-NYUMC415_X_X_2020                      0.01%    passed     99.61%
+  43  Wales_X_X_PHWC-30F64_X_X_2020                     3.41%    passed     99.32%
+  44  USA_X_X_CA-SR0181_X_X_2020                        0.54%    passed     99.86%
+  45  England_X_X_NORW-E83AB_X_X_2020                   0.10%    passed     99.68%
+  46  Romania_X_X_Suceava-5893_X_X_2020                 0.04%    passed     99.67%
+  47  India_X_X_WB-S6_X_X_2020                          0.15%    passed     99.97%
+  48  Spain_X_X_IB-IBV-2590_X_X_2020                    0.21%    passed     99.78%
+  49  Spain_X_X_VC-FISABIO-264_X_X_2020                 1.65%    passed     99.87%
+  50  Switzerland_X_X_BS-42220148_X_X_2020              0.78%    passed     99.91%
+  51  Switzerland_X_X_BS-UHB-42197488_X_X_2020          0.33%    passed     99.94%
+  52  USA_X_X_WA-UW117_X_X_2020                         0.19%    passed     99.99%
+  53  USA_X_X_MI-MDHHS-SC21120_X_X_2020                 0.45%    passed     99.99%
+  54  Spain_X_X_VC-IBV-98003115_X_X_2020                0.32%    passed     99.98%
+  55  USA_X_X_MN-UW-MAYO71_X_X_2020                     0.21%    passed     99.98%
+  56  USA_X_X_NY-PV09413_X_X_2020                       0.60%    passed     99.99%
+  57  USA_X_X_NY-PV09019_X_X_2020                       0.65%    passed     99.97%
+  58  USA_X_X_NY-MSK-3Ai_X_X_2020                       0.31%    passed     99.87%
+  59  USA_X_X_NY-PV09385_X_X_2020                       0.63%    passed     99.99%
+  60  USA_X_X_NY-MSK-20A_X_X_2020                       0.45%    passed     99.99%
+  61  Canada_X_X_ON-OICR-SLB2820_X_X_2020               0.30%    passed     99.97%
+  62  Switzerland_X_X_BS-42221749_X_X_2020              0.30%    passed     99.99%
+  63  Wales_X_X_PHWC-2565E_X_X_2020                     2.55%    passed     99.85%
+  64  England_X_X_LOND-124D1B4_X_X_2020                 0.28%    passed     99.97%
+  65  Spain_X_X_AN-IBV-001089_X_X_2020                  0.30%    passed     99.93%
+  66  Switzerland_X_X_BS-UHB-42187354_X_X_2020          0.30%    passed     99.97%
+  67  Switzerland_X_X_BS-UHB-42176753_X_X_2020          0.30%    passed     99.97%
+  68  Switzerland_X_X_BS-UHB-42191432_X_X_2020          0.30%    passed     99.96%
+  69  Switzerland_X_X_BS-UHB-42201257_X_X_2020          0.30%    passed     99.96%
+  70  Canada_X_X_ON_MU-S1_X_X_2020                      0.30%    passed     99.96%
+  71  Switzerland_X_X_BS-42199846_X_X_2020              0.30%    passed     99.96%
+  72  Spain_X_X_AN-IBV-002998_X_X_2020                  0.32%    passed     99.94%
+  73  Canada_X_X_ON-OICR-SLB2868_X_X_2020               0.29%    passed     99.96%
+  74  USA_X_X_MI-MDHHS-SC20238_X_X_2020                 1.38%    passed     99.90%
+  75  Switzerland_X_X_BS-UHB-42187670_X_X_2020          0.33%    passed     99.96%
+  76  Spain_X_X_PV-IBV-001462_X_X_2020                  0.32%    passed     99.97%
+  77  Spain_X_X_VC-FISABIO-292_X_X_2020                 0.61%    passed     99.95%
+  78  Australia_X_X_SAP446_X_X_2020                     0.27%    passed     99.93%
+  79  USA_X_X_MN-MDH-1602_X_X_2020                      0.27%    passed     99.93%
+  80  Canada_X_X_QC-LSPQ-L00222035_X_X_2020             0.27%    passed     99.95%
+  81  England_X_X_OXON-B3B47_X_X_2020                   0.05%    passed     99.91%
+  82  Switzerland_X_X_ZH-UZH-1000478554_X_X_2020        0.14%    passed     99.99%
+  83  England_X_X_OXON-B49E2_X_X_2020                   0.03%    passed     99.80%
+  84  England_X_X_OXON-B42BA_X_X_2020                   0.04%    passed     99.86%
+  85  France_X_X_BRE-5325_X_X_2020                      0.09%    passed     99.99%
+  86  Spain_X_X_VC-FISABIO-293_X_X_2020                 0.33%    passed     99.99%
+  87  England_X_X_20144067504_X_X_2020                  0.69%    passed     99.88%
+  88  USA_X_X_FL-BPHL-0155_X_X_2020                     0.20%    passed     99.96%
+  89  India_X_X_WB-S2_X_X_2020                          0.16%    passed     99.98%
+  90  Greece_X_X_153_33892_X_X_2020                     0.28%    passed     99.97%
+  91  Greece_X_X_136_X_X_2020                           0.26%    passed     99.98%
+  92  Italy_X_X_LOM-INMI-5314-N_X_X_2020                0.22%    passed     99.98%
+  93  USA_X_X_FL-BPHL-0540_X_X_2020                     0.15%    passed     99.97%
+  94  USA_X_X_WI-GMF-01978_X_X_2020                     0.21%    passed     99.98%
+  95  USA_X_X_MA-MGH-00516_X_X_2020                     0.18%    passed    100.00%
+  96  USA_X_X_MA-MGH-00495_X_X_2020                     0.08%    passed    100.00%
+  97  Cuba_X_X_USAFSAM-S031_X_X_2020                    1.35%    passed     99.96%
+  98  Italy_X_X_PIE-SLL-MS45_X_X_2020                   0.27%    passed     99.98%
+  99  France_X_X_GES-1977_X_X_2020                      0.07%    passed     99.99%
+ 100  USA_X_X_NY-WCMP10G05P_X_X_2020                    0.15%    passed     99.97%
+ 101  USA_X_X_NY-WCMP11C05P_X_X_2020                    0.16%    passed     99.99%
+ 102  USA_X_X_MI-MDHHS-SC20302_X_X_2020                 1.30%    passed     99.94%
+ 103  USA_X_X_IA-CDC-8200_X_X_2020                      0.07%    passed     99.98%
+ 104  USA_X_X_AZ-TG269824_X_X_2020                      0.07%    passed     99.99%
+ 105  France_X_X_BRE-2344_X_X_2020                      0.13%    passed     99.99%
+ 106  Luxembourg_X_X_LNS3437586_X_X_2020                0.13%    passed     99.99%
+ 107  USA_X_X_MA-MGH-00681_X_X_2020                     0.21%    passed     99.99%
+ 108  USA_X_X_NY-WCMP11F04P_X_X_2020                    0.11%    passed     99.99%
+ 109  USA_X_X_PA-MGEL89_X_X_2020                        0.21%    passed     99.99%
+ 110  USA_X_X_CA-CZB0750_X_X_2020                       0.06%    passed     99.99%
+ 111  Luxembourg_X_X_LNS3879580_X_X_2020                0.22%    passed    100.00%
+ 112  USA_X_X_MA-MGH-00211_X_X_2020                     0.32%    passed     99.89%
+ 113  France_X_X_IDF-3029_X_X_2020                      0.20%    passed     99.98%
+ 114  Canada_X_X_QC-LSPQ-L00238445_X_X_2020             0.16%    passed     99.98%
+ 115  England_X_X_20140050604_X_X_2020                  1.34%    passed     99.93%
+ 116  Wales_X_X_PHWC-163EC4_X_X_2020                    0.18%    passed     99.99%
+ 117  Taiwan_X_X_128_X_X_2020                           0.13%    passed     99.98%
+ 118  USA_X_X_CA-UCLA-227_X_X_2020                      0.20%    passed     99.98%
+ 119  USA_X_X_NY-NYUMC722_X_X_2020                      0.01%    passed     99.68%
+ 120  France_X_X_ARA-06678_X_X_2020                     0.49%    passed     99.98%
+ 121  France_X_X_ARA-06042_X_X_2020                     0.79%    passed     99.80%
+ 122  USA_X_X_WA-UW-2608_X_X_2020                       0.23%    passed     99.93%
+ 123  France_X_X_ARA-1276_X_X_2020                      0.16%    passed    100.00%
+ 124  Peru_X_X_LIM-01-2_X_X_2020                        1.37%    passed     99.95%
+ 125  France_X_X_CVL-8278_X_X_2020                      0.20%    passed    100.00%
+ 126  Portugal_X_X_PT0371_X_X_2020                      1.00%    passed     99.98%
+ 127  Portugal_X_X_PT0447_X_X_2020                      1.00%    passed     99.99%
+ 128  USA_X_X_NY-NYUMC836_X_X_2020                      0.43%    passed     99.91%
+ 129  USA_X_X_NY-NYUMC657_X_X_2020                      0.35%    passed     99.90%
+ 130  Australia_X_X_WA60_X_X_2020                       1.66%    passed     99.54%
+ 131  Australia_X_X_NSW604_X_X_2020                     1.66%    passed     99.56%
+ 132  France_X_X_ARA-425_X_X_2020                       0.35%    passed    100.00%
+ 133  France_X_X_ARA-12265_X_X_2020                     0.35%    passed     99.98%
+ 134  USA_X_X_WA-UW155_X_X_2020                         0.37%    passed     99.98%
+ 135  Turkey_X_X_HSGM-8990_X_X_2020                     0.89%    passed     97.90%
+ 136  Jordan_X_X_SR-033_X_X_2020                        1.65%    passed     99.47%
+ 137  India_X_X_MH-MW29_X_X_2020                        0.06%    passed     99.40%
+ 138  Wuhan_X_X_IPBCAMS-WH-01_X_X_2019                  0.01%    passed     99.68%
+ 139  France_X_X_IDF-0372-isl_X_X_2020                  0.10%    passed     99.97%
+ 140  England_X_X_20109051806_X_X_2020                  0.37%    passed     99.97%
+ 141  England_X_X_201160628_X_X_2020                    0.18%    passed     99.98%
+ 142  Germany_X_X_NW-HHU-46_X_X_2020                    0.41%    passed     99.99%
+ 143  USA_X_X_WA-QDX-570_X_X_2020                       0.40%    passed     99.97%
+ 144  USA_X_X_WA-S137_X_X_2020                          0.16%    passed     99.94%
+ 145  USA_X_X_WA-S106_X_X_2020                          0.12%    passed     99.97%
+ 146  USA_X_X_WA-S28_X_X_2020                           0.15%    passed     99.95%
+ 147  USA_X_X_WA-S951_X_X_2020                          0.15%    passed     99.93%
+ 148  Guangdong_X_X_20SF028_X_X_2020                    0.19%    passed     99.93%
+ 149  USA_X_X_WA-S89_X_X_2020                           0.15%    passed     99.97%
+ 150  Austria_X_X_CeMM0897_X_X_2020                     0.41%    passed     99.99%
+ 151  England_X_X_CAMB-84E37_X_X_2020                   1.39%    passed     99.90%
+ 152  England_X_X_CAMB-7342A_X_X_2020                   1.39%    passed     99.83%
+ 153  Portugal_X_X_PT1256_X_X_2020                      0.47%    passed     99.93%
+ 154  Portugal_X_X_PT0744_X_X_2020                      1.37%    passed     99.85%
+ 155  Portugal_X_X_PT0306_X_X_2020                      0.47%    passed     99.95%
+ 156  Portugal_X_X_PT0723_X_X_2020                      0.61%    passed     99.91%
+ 157  Portugal_X_X_PT0673_X_X_2020                      0.49%    passed     99.97%
+ 158  Portugal_X_X_PT0035_X_X_2020                      0.47%    passed     99.93%
+ 159  England_X_X_LIVE-A6215_X_X_2020                   0.12%    passed     99.68%
+ 160  Australia_X_X_VIC218_X_X_2020                     0.19%    passed     99.82%
+ 161  Wales_X_X_PHWC-309DF_X_X_2020                     2.95%    passed     97.71%
+ 162  Taiwan_X_X_CGMH-CGU-03_X_X_2020                   0.01%    passed     99.49%
+ 163  Pingxiang_X_X_JX151_X_X_2020                      0.12%    passed     99.88%
+ 164  Xinyu_X_X_JX124_X_X_2020                          0.12%    passed     99.81%
+ 165  Zhejiang_X_X_CN3_X_X_2020                         0.23%    passed     99.99%
+ 166  Shanghai_X_X_SH0010_X_X_2020                      0.23%    passed     99.97%
+ 167  Portugal_X_X_PT1251_X_X_2020                      0.62%    passed     99.98%
+ 168  Brazil_X_X_PE-IAM103_X_X_2020                     0.66%    passed     99.79%
+ 169  Netherlands_X_X_Utrecht_10028_X_X_2020            0.04%    passed     99.80%
+ 170  USA_X_X_NY-NYUMC706_X_X_2020                      0.11%    passed     99.99%
+ 171  USA_X_X_MI-MDHHS-SC20624_X_X_2020                 0.83%    passed     99.92%
+ 172  USA_X_X_WA-S388_X_X_2020                          0.13%    passed     99.99%
+ 173  USA_X_X_WI-GMF-00921_X_X_2020                     0.11%    passed    100.00%
+ 174  USA_X_X_FL-BPHL-0460_X_X_2020                    11.40%    passed      5.14%
+ 175  USA_X_X_SC-20-1418-T07_X_X_2020                   0.26%    passed     99.94%
+ 176  Colombia_X_X_VAC-GVI-93537_X_X_2020               0.63%    passed     99.97%
+ 177  Wales_X_X_PHWC-2A61D_X_X_2020                     0.11%    passed     99.83%
+ 178  USA_X_X_WA-S860_X_X_2020                          0.12%    passed     99.99%
+ 179  Luxembourg_X_X_LNS6533667_X_X_2020                0.34%    passed     99.95%
+ 180  Canada_X_X_QC-LSPQ-L00241924_X_X_2020             0.29%    passed     99.98%
+ 181  USA_X_X_UT-01874_X_X_2020                         3.29%    passed     97.44%
+ 182  DRC_X_X_6783_X_X_2020                             4.71%    passed     98.55%
+ 183  Spain_X_X_VC-FISABIO-160_X_X_2020                 0.29%    passed     99.98%
+ 184  USA_X_X_TX-DSHS-0083_X_X_2020                     2.57%    passed     99.80%
+ 185  USA_X_X_CA-CZB-7204_X_X_2020                      0.55%    passed    100.00%
+ 186  Romania_X_X_ROSV_2899_X_X_2020                    0.32%    passed     99.99%
+ 187  Finland_X_X_13M64_X_X_2020                        0.94%    passed     99.27%
+ 188  India_X_X_GJ-GBRC72a_X_X_2020                     0.24%    passed     99.99%
+ 189  USA_X_X_FL-BPHL-1241_X_X_2020                     0.17%    passed     99.98%
+ 190  India_X_X_GJ-GBRC-382b_X_X_2020                   0.34%    passed     99.98%
+ 191  India_X_X_GJ-GBRC-384a_X_X_2020                   0.44%    passed     99.93%
+ 192  Canada_X_X_QC-LSPQ-L00229727_X_X_2020             0.22%    passed     99.94%
+ 193  Iceland_X_X_319_X_X_2020                          1.51%    passed     99.52%
+ 194  USA_X_X_VA-DCLS-0440_X_X_2020                     0.13%    passed     99.99%
+ 195  USA_X_X_OR-OHSU-0807_X_X_2020                     0.47%    passed     99.70%
+ 196  USA_X_X_VA-DCLS-1424_X_X_2020                     0.06%    passed     99.68%
+ 197  England_X_X_QEUH-52DB8F_X_X_2020                  1.97%    passed     99.96%
+ 198  India_X_X_TG-CCMB-L1459_X_X_2020                  0.23%    passed     99.97%
+ 199  Brazil_X_X_SP-14_X_X_2020                         0.18%    passed     99.97%
+ 200  Switzerland_X_X_UR-ETHZ-100227_X_X_2020           0.22%    passed     99.99%
+ 201  Iceland_X_X_189_X_X_2020                          0.22%    passed     99.93%
+ 202  USA_X_X_WY-WYPHL-00055_X_X_2020                   2.46%    passed     96.87%
+ 203  Switzerland_X_X_ZH-UZH-1000482983_X_X_2020        0.21%    passed     99.99%
+ 204  England_X_X_CAMB-75895_X_X_2020                   1.57%    passed     99.99%
+ 205  England_X_X_ALDP-944395_X_X_2020                  0.41%    passed    100.00%
+ 206  England_X_X_BRIS-128696_X_X_2020                  3.34%    passed     98.66%
+ 207  England_X_X_BRIS-123859_X_X_2020                  1.55%    passed     99.98%
+ 208  Scotland_X_X_EDB1106_X_X_2020                     0.40%    passed    100.00%
+ 209  England_X_X_BRIS-185421B_X_X_2020                 0.40%    passed    100.00%
+ 210  Belgium_X_X_HCM-0324151_X_X_2020                  0.48%    passed    100.00%
+ 211  England_X_X_WSFT-25C110D_X_X_2020                 0.41%    passed     99.99%
+ 212  Austria_X_X_CeMM0305_X_X_2020                     0.40%    passed    100.00%
+ 213  Scotland_X_X_EDB2711_X_X_2020                     0.40%    passed     99.99%
+ 214  England_X_X_LOND-12608F2_X_X_2020                 0.40%    passed     99.99%
+ 215  Belgium_X_X_UGent-96_X_X_2020                     0.40%    passed     99.99%
+ 216  England_X_X_CAMB-7E94E_X_X_2020                   0.97%    passed     99.94%
+ 217  England_X_X_LEED-2A8AFB_X_X_2020                  2.28%    passed     99.66%
+ 218  Denmark_X_X_ALAB-SSI-1262_X_X_2020                0.40%    passed    100.00%
+ 219  England_X_X_LIVE-99BFC_X_X_2020                   0.40%    passed    100.00%
+ 220  England_X_X_ALDP-4A29A7_X_X_2020                  0.40%    passed     99.99%
+ 221  England_X_X_SHEF-C8C2E_X_X_2020                   0.40%    passed    100.00%
+ 222  England_X_X_BRIS-13107E_X_X_2020                  0.66%    passed     99.98%
+ 223  England_X_X_QEUH-95FC23_X_X_2020                  0.40%    passed    100.00%
+ 224  England_X_X_EXET-136D45_X_X_2020                  0.40%    passed    100.00%
+ 225  England_X_X_NORT-28910A_X_X_2020                  1.39%    passed     99.92%
+ 226  USA_X_X_CA-QDX-1444_X_X_2020                      0.40%    passed    100.00%
+ 227  England_X_X_ALDP-9EE087_X_X_2020                  0.40%    passed     99.99%
+ 228  Hungary_X_X_MH-597_X_X_2020                       0.40%    passed    100.00%
+ 229  England_X_X_CAMB-1AC5E8_X_X_2020                  1.39%    passed     99.97%
+ 230  England_X_X_CAMB-7CDF9_X_X_2020                   1.32%    passed     99.96%
+ 231  Norway_X_X_2856_X_X_2020                          0.40%    passed    100.00%
+ 232  England_X_X_BRIS-18531D3_X_X_2020                 0.40%    passed    100.00%
+ 233  Scotland_X_X_CVR115_X_X_2020                      1.12%    passed     99.92%
+ 234  USA_X_X_WI-WSLH-200113_X_X_2020                   0.40%    passed    100.00%
+ 235  England_X_X_ALDP-9B5845_X_X_2020                  0.40%    passed    100.00%
+ 236  England_X_X_QEUH-95F485_X_X_2020                  0.40%    passed     99.99%
+ 237  England_X_X_ALDP-9846EB_X_X_2020                  0.40%    passed    100.00%
+ 238  England_X_X_ALDP-907D09_X_X_2020                  0.40%    passed    100.00%
+ 239  England_X_X_BRIS-12CBC0_X_X_2020                  1.23%    passed     99.85%
+ 240  England_X_X_LEED-2A9C9A_X_X_2020                  0.40%    passed    100.00%
+ 241  England_X_X_QEUH-95FD7B_X_X_2020                  0.40%    passed    100.00%
+ 242  USA_X_X_CA-CZB-1217_X_X_2020                      0.03%    passed     99.68%
+ 243  Italy_X_X_TUS-DBM-10_X_X_2020                     0.33%    passed     99.98%
+ 244  Germany_X_X_BY-MVP-0067_X_X_2020                  0.24%    passed     99.98%
+ 245  Iceland_X_X_243_X_X_2020                          0.13%    passed     99.99%
+ 246  Iceland_X_X_62_X_X_2020                           0.14%    passed     99.99%
+ 247  England_X_X_ALDP-90D6AE_X_X_2020                  0.40%    passed     99.99%
+ 248  England_X_X_CAMB-7BC1B_X_X_2020                   1.39%    passed     99.86%
+ 249  Scotland_X_X_CVR183_X_X_2020                      0.40%    passed     99.97%
+ 250  Scotland_X_X_CVR140_X_X_2020                      0.40%    passed     99.98%
+ 251  Scotland_X_X_EDB2739_X_X_2020                     0.40%    passed     99.97%
+ 252  England_X_X_CAMB-721F7_X_X_2020                   1.39%    passed     99.90%
+ 253  Spain_X_X_VC-FISABIO-41_X_X_2020                  0.40%    passed     99.99%
+ 254  Belgium_X_X_MT-0322411_X_X_2020                   0.40%    passed     99.97%
+ 255  France_X_X_GES-8777_X_X_2020                      0.40%    passed     99.99%
+ 256  England_X_X_CAMB-73FDE_X_X_2020                   1.64%    passed     99.96%
+ 257  England_X_X_CAMB-73994_X_X_2020                   0.40%    passed     99.97%
+ 258  Austria_X_X_CeMM0330_X_X_2020                     0.42%    passed     99.97%
+ 259  England_X_X_SHEF-C050D_X_X_2020                   0.40%    passed     99.99%
+ 260  England_X_X_ALDP-4A30B0_X_X_2020                  0.40%    passed     99.98%
+ 261  Scotland_X_X_CVR34_X_X_2020                       0.40%    passed     99.99%
+ 262  Scotland_X_X_CVR942_X_X_2020                      0.40%    passed     99.99%
+ 263  Denmark_X_X_ALAB-HH-248_X_X_2020                  0.41%    passed     99.99%
+ 264  Belgium_X_X_ULG-7921_X_X_2020                     0.40%    passed     99.99%
+ 265  Scotland_X_X_CVR55_X_X_2020                       1.15%    passed     99.70%
+ 266  Scotland_X_X_EDB1404_X_X_2020                     0.40%    passed     99.99%
+ 267  Austria_X_X_CeMM0308_X_X_2020                     0.40%    passed     99.99%
+ 268  USA_X_X_CA-QDX-1435_X_X_2020                      0.40%    passed     99.98%
+ 269  England_X_X_ALDP-9449A2_X_X_2020                  0.40%    passed     99.98%
+ 270  USA_X_X_TX-HMH-1458_X_X_2020                      0.40%    passed     99.98%
+ 271  Denmark_X_X_ALAB-SSI-1248_X_X_2020                0.40%    passed     99.99%
+ 272  USA_X_X_PR-QDX-1074_X_X_2020                      0.40%    passed     99.99%
+ 273  USA_X_X_NJ-QDX-1209_X_X_2020                      0.40%    passed     99.99%
+ 274  USA_X_X_WI-WSLH-200372_X_X_2020                   0.40%    passed     99.99%
+ 275  USA_X_X_MI-QDX-354_X_X_2020                       0.40%    passed     99.99%
+ 276  USA_X_X_NY-QDX-1175_X_X_2020                      0.40%    passed     99.97%
+ 277  Belgium_X_X_ULG-6939_X_X_2020                     0.40%    passed     99.99%
+ 278  USA_X_X_TX-HMH-453_X_X_2020                       0.50%    passed     99.99%
+ 279  USA_X_X_MI-QDX-657_X_X_2020                       0.40%    passed     99.99%
+ 280  USA_X_X_TX-HMH035_X_X_2020                        0.40%    passed     99.99%
+ 281  Belgium_X_X_Rega-0328196_X_X_2020                 0.40%    passed     99.99%
+ 282  USA_X_X_WA-QDX-1085_X_X_2020                      0.40%    passed     99.99%
+ 283  USA_X_X_TX-HMH016_X_X_2020                        0.40%    passed     99.99%
+ 284  USA_X_X_AZ-QDX-519_X_X_2020                       0.40%    passed     99.98%
+ 285  USA_X_X_NE-907_X_X_2020                           3.17%    passed     99.79%
+ 286  USA_X_X_MI-UM-10033818123_X_X_2020                0.40%    passed     99.97%
+ 287  USA_X_X_TX-HMH-1279_X_X_2020                      0.40%    passed     99.99%
+ 288  USA_X_X_TX-HMH-1113_X_X_2020                      0.40%    passed     99.99%
+ 289  USA_X_X_LA-GBCL-26556587_X_X_2020                 0.43%    passed     99.98%
+ 290  USA_X_X_TX-HMH0284_X_X_2020                       0.40%    passed     99.98%
+ 291  Denmark_X_X_ALAB-HH66_X_X_2020                    0.41%    passed    100.00%
+ 292  USA_X_X_LA-GBCL-26684456_X_X_2020                 2.65%    passed     99.41%
+ 293  USA_X_X_WI-UW-20_X_X_2020                         0.40%    passed     99.99%
+ 294  England_X_X_CAMB-1ABCA8_X_X_2020                  0.40%    passed     99.99%
+ 295  USA_X_X_WI-WSLH-200493_X_X_2020                   0.40%    passed     99.98%
+ 296  Scotland_X_X_EDB5108_X_X_2020                     1.37%    passed     99.90%
+ 297  USA_X_X_MI-QDX-465_X_X_2020                       0.57%    passed     99.99%
+ 298  USA_X_X_NY-QDX-867_X_X_2020                       0.40%    passed     99.99%
+ 299  Israel_X_X_2107137_X_X_2020                       0.40%    passed     99.99%
+ 300  USA_X_X_MI-UM-10033981968_X_X_2020                0.40%    passed     99.98%
+ 301  England_X_X_BRIS-1254DB_X_X_2020                  2.20%    passed     97.72%
+ 302  England_X_X_LOND-1260DB7_X_X_2020                 0.40%    passed     99.98%
+ 303  Denmark_X_X_ALAB-HH-150_X_X_2020                  0.40%    passed     99.99%
+ 304  England_X_X_MILK-86ECE6_X_X_2020                  0.40%    passed     99.98%
+ 305  Belgium_X_X_Rega-0330248_X_X_2020                 0.40%    passed     99.97%
+ 306  Denmark_X_X_ALAB-SSI262_X_X_2020                  0.40%    passed     99.98%
+ 307  Scotland_X_X_EDB2724_X_X_2020                     0.40%    passed     99.98%
+ 308  USA_X_X_WI-UW-589_X_X_2020                        0.41%    passed     99.97%
+ 309  USA_X_X_TX-HMH-1428_X_X_2020                      0.40%    passed     99.98%
+ 310  England_X_X_CAMB-7CB59_X_X_2020                   1.35%    passed     99.98%
+ 311  USA_X_X_TX-HMH-1529_X_X_2020                      0.40%    passed     99.99%
+ 312  England_X_X_CAMB-734B1_X_X_2020                   1.39%    passed     99.85%
+ 313  England_X_X_NORT-2A534E_X_X_2020                  0.41%    passed     99.99%
+ 314  England_X_X_QEUH-9C800B_X_X_2020                  0.40%    passed     99.98%
+ 315  England_X_X_QEUH-95F898_X_X_2020                  0.40%    passed     99.99%
+ 316  England_X_X_BRIS-12663E_X_X_2020                  1.22%    passed     99.99%
+ 317  England_X_X_ALDP-A2D953_X_X_2020                  0.40%    passed     99.99%
+ 318  England_X_X_ALDP-8E153B_X_X_2020                  0.40%    passed    100.00%
+ 319  England_X_X_CAMB-7C60D_X_X_2020                   1.42%    passed     99.84%
+ 320  Netherlands_X_X_Utrecht_20_X_X_2020               0.43%    passed     99.98%
+ 321  Netherlands_X_X_NA_521_X_X_2020                   0.43%    passed     99.98%
+ 322  mink_X_X_Netherlands_X_X_NB-EMC-1-11_X_X_2020     0.43%    passed     99.99%
+ 323  mink_X_X_Netherlands_X_X_NB-EMC-1-13_X_X_2020     0.43%    passed     99.99%
+ 324  Netherlands_X_X_NA_163_X_X_2020                   0.43%    passed     99.99%
+ 325  Bahrein_X_X_BAH-04_X_X_2020                       0.43%    passed    100.00%
+ 326  Netherlands_X_X_Limburg_51_X_X_2020               0.43%    passed    100.00%
+ 327  England_X_X_LOND-D5B5E_X_X_2020                   0.63%    passed     99.99%
+ 328  Finland_X_X_29M60S1_X_X_2020                      0.54%    passed    100.00%
+ 329  USA_X_X_IL-NM019_X_X_2020                         4.56%    passed     99.32%
+ 330  Canada_X_X_NS-NML-927_X_X_2020                    0.56%    passed     99.94%
+ 331  Canada_X_X_NS-NML-887_X_X_2020                    0.56%    passed     99.96%
+ 332  USA_X_X_CA-ALSR-1398_X_X_2020                     0.18%    passed     99.67%
+ 333  Belgium_X_X_ITM_C376_X_X_2020                     0.45%    passed     99.99%
+ 334  Netherlands_X_X_NB-EMC-281_X_X_2020               0.43%    passed     99.98%
+ 335  England_X_X_GSTT-6885_X_X_2020                    2.01%    passed     97.75%
+ 336  England_X_X_CAMB-76DFF_X_X_2020                   0.40%    passed     99.98%
+ 337  England_X_X_MILK-9A6CE1_X_X_2020                  0.40%    passed     99.98%
+ 338  England_X_X_ALDP-9548DF_X_X_2020                  0.40%    passed     99.99%
+ 339  England_X_X_ALDP-49D839_X_X_2020                  0.40%    passed    100.00%
+ 340  England_X_X_ALDP-94D754_X_X_2020                  0.40%    passed     99.96%
+ 341  Canada_X_X_ON-UHTC-0289_X_X_2020                  2.07%    passed     97.73%
+ 342  England_X_X_NOTT-111690_X_X_2020                  0.41%    passed    100.00%
+ 343  England_X_X_SHEF-10B2F49_X_X_2020                 0.74%    passed     99.92%
+ 344  England_X_X_QEUH-961620_X_X_2020                  0.41%    passed     99.99%
+ 345  England_X_X_QEUH-95FF1B_X_X_2020                  0.40%    passed     99.98%
+ 346  England_X_X_ALDP-9FD2CB_X_X_2020                  0.40%    passed     99.97%
+ 347  Scotland_X_X_QEUH-95E310_X_X_2020                 0.40%    passed     99.99%
+ 348  England_X_X_ALDP-4A4D6D_X_X_2020                  0.40%    passed     99.97%
+ 349  England_X_X_ALDP-94CF11_X_X_2020                  0.40%    passed     99.99%
+ 350  England_X_X_MILK-9C43BB_X_X_2020                  0.40%    passed     99.99%
+ 351  USA_X_X_UT-UPHL-2009006_X_X_2020                  0.41%    passed     99.98%
+ 352  USA_X_X_UT-UPHL-2009286_X_X_2020                  1.29%    passed     99.83%
+ 353  USA_X_X_FL-BPHL-0247_X_X_2020                     0.32%    passed     99.97%
+ 354  USA_X_X_UT-08474_X_X_2020                         4.36%    passed     98.23%
+ 355  Netherlands_X_X_NB-EMC-279_X_X_2020               1.26%    passed     99.99%
+ 356  Scotland_X_X_QEUH-998ACA_X_X_2020                 0.40%    passed     99.99%
+ 357  England_X_X_ALDP-944A27_X_X_2020                  0.83%    passed     99.99%
+ 358  England_X_X_MILK-60A7DE_X_X_2020                  0.79%    passed     99.99%
+ 359  England_X_X_ALDP-A2FEF8_X_X_2020                  0.40%    passed    100.00%
+ 360  England_X_X_ALDP-A2F2ED_X_X_2020                  0.41%    passed     99.99%
+ 361  England_X_X_LIVE-9A1BD_X_X_2020                   2.40%    passed     99.27%
+ 362  England_X_X_ALDP-49EF24_X_X_2020                  0.41%    passed    100.00%
+ 363  England_X_X_ALDP-A2F809_X_X_2020                  0.42%    passed     99.99%
+ 364  England_X_X_MILK-993FDF_X_X_2020                  0.42%    passed    100.00%
+ 365  England_X_X_ALDP-A2D04F_X_X_2020                  0.42%    passed    100.00%
+ 366  England_X_X_QEUH-9B5520_X_X_2020                  0.42%    passed    100.00%
+ 367  England_X_X_QEUH-9611E3_X_X_2020                  0.42%    passed    100.00%
+ 368  England_X_X_QEUH-96F464_X_X_2020                  0.42%    passed    100.00%
+ 369  England_X_X_ALDP-A2FCA3_X_X_2020                  0.43%    passed    100.00%
+ 370  England_X_X_ALDP-A2D382_X_X_2020                  0.42%    passed    100.00%
+ 371  England_X_X_ALDP-A2E8A0_X_X_2020                  0.43%    passed    100.00%
+ 372  England_X_X_QEUH-9646C3_X_X_2020                  0.40%    passed     99.99%
+ 373  England_X_X_ALDP-A2EB98_X_X_2020                  0.41%    passed     99.99%
+ 374  England_X_X_MILK-99C950_X_X_2020                  0.40%    passed     99.99%
+ 375  England_X_X_ALDP-A2D373_X_X_2020                  0.40%    passed     99.99%
+ 376  England_X_X_MILK-9A6AF6_X_X_2020                  0.40%    passed    100.00%
+ 377  Wales_X_X_PHWC-16ED71_X_X_2020                    0.22%    passed     99.93%
+ 378  England_X_X_MILK-9AA306_X_X_2020                  0.40%    passed     99.96%
+ 379  USA_X_X_MI-UM-MH27455_X_X_2020                    0.40%    passed     99.96%
+ 380  Norway_X_X_1526_X_X_2020                          0.23%    passed     99.62%
+ 381  Sweden_X_X_20-51886_X_X_2020                      0.00%    passed     99.60%
+ 382  Wuhan_X_X_HB-WHCM-101_X_X_2020                    0.00%    passed     99.50%
+ 383  Spain_X_X_PV-ISCIII-201602_X_X_2020               0.39%    passed     99.96%
+ 384  Kazakhstan_X_X_7263_X_X_2020                      0.00%    passed     99.50%
+ 385  Spain_X_X_MD-H12-29_X_X_2020                      0.20%    passed     99.99%
+ 386  Panama_X_X_334102_X_X_2020                        2.22%    passed     98.14%
+ 387  Sichuan_X_X_SC-WCH3-254_X_X_2020                  0.00%    passed     99.46%
+ 388  Sichuan_X_X_SC-YB-086_X_X_2020                    0.02%    passed     99.62%
+ 389  France_X_X_PAC-IHU-1014_X_X_2020                  0.67%    passed     99.94%
+ 390  USA_X_X_WI-GMF-M00007_X_X_2020                    0.23%    passed     99.96%
+ 391  USA_X_X_AK-PHL444_X_X_2020                        0.18%    passed     99.98%
+ 392  Australia_X_X_VIC2165_X_X_2020                    0.34%    passed     99.98%
+ 393  Australia_X_X_VIC7683_X_X_2020                    0.34%    passed     99.96%
+ 394  Australia_X_X_VIC15500_X_X_2020                   0.33%    passed     99.98%
+ 395  Australia_X_X_VIC8196_X_X_2020                    0.33%    passed     99.92%
+ 396  Australia_X_X_VIC14965_X_X_2020                   0.39%    passed     99.99%
+ 397  Australia_X_X_VIC2667_X_X_2020                    0.29%    passed     99.98%
+ 398  Australia_X_X_VIC2884_X_X_2020                    0.29%    passed     99.98%
+ 399  Australia_X_X_VIC6237_X_X_2020                    0.29%    passed     99.98%
+ 400  Australia_X_X_VIC3934_X_X_2020                    0.29%    passed     99.98%
+ 401  Australia_X_X_VIC2801_X_X_2020                    0.21%    passed     99.96%
+ 402  Australia_X_X_VIC5294_X_X_2020                    0.34%    passed     99.99%
+ 403  Australia_X_X_VIC6306_X_X_2020                    0.30%    passed     99.98%
+ 404  Australia_X_X_VIC4223_X_X_2020                    0.31%    passed     99.96%
+ 405  Australia_X_X_VIC8929_X_X_2020                    0.40%    passed    100.00%
+ 406  Australia_X_X_VIC4654_X_X_2020                    0.27%    passed     99.98%
+ 407  Australia_X_X_VIC5779_X_X_2020                    0.27%    passed     99.97%
+ 408  Australia_X_X_VIC8092_X_X_2020                    0.37%    passed     99.99%
+ 409  Australia_X_X_VIC6096_X_X_2020                    0.35%    passed     99.94%
+ 410  Australia_X_X_VIC7618_X_X_2020                    0.34%    passed     99.97%
+ 411  Australia_X_X_NSW658_X_X_2020                     1.66%    passed     98.96%
+ 412  Australia_X_X_NSW998_X_X_2020                     1.66%    passed     98.96%
+ 413  Australia_X_X_NSW1008_X_X_2020                    1.66%    passed     98.98%
+ 414  Australia_X_X_VIC11449_X_X_2020                   0.35%    passed     99.98%
+ 415  mink_X_X_Netherlands_X_X_NB-EMC-17-19_X_X_2020    0.43%    passed     99.97%
+ 416  Netherlands_X_X_NA_492_X_X_2020                   0.48%    passed     99.99%
+ 417  England_X_X_MILK-994C5F_X_X_2020                  0.41%    passed    100.00%
+ 418  England_X_X_ALDP-A2F7DF_X_X_2020                  0.40%    passed     99.99%
+ 419  England_X_X_ALDP-951E76_X_X_2020                  2.90%    passed     99.62%
+ 420  England_X_X_ALDP-9FD498_X_X_2020                  0.40%    passed    100.00%
+ 421  England_X_X_BIRM-602BD_X_X_2020                   0.44%    passed    100.00%
+ 422  Wales_X_X_MILK-9712B0_X_X_2020                    0.40%    passed     99.98%
+ 423  England_X_X_ALDP-9FD261_X_X_2020                  0.40%    passed     99.97%
+ 424  England_X_X_ALDP-A2F61E_X_X_2020                  0.40%    passed     99.95%
+ 425  England_X_X_QEUH-A216B2_X_X_2020                  0.57%    passed     99.92%
+ 426  England_X_X_CAMC-9E003A_X_X_2020                  0.11%    passed     99.99%
+ 427  England_X_X_ALDP-9FD225_X_X_2020                  0.40%    passed    100.00%
+ 428  England_X_X_ALDP-A2E8FB_X_X_2020                  0.41%    passed    100.00%
+ 429  Scotland_X_X_QEUH-94375E_X_X_2020                 0.40%    passed     99.97%
+ 430  England_X_X_ALDP-9FD173_X_X_2020                  0.40%    passed     99.98%
+ 431  England_X_X_ALDP-A2F6C3_X_X_2020                  3.77%    passed     90.57%
+ 432  Switzerland_X_X_ZH-UZH-1000477102_X_X_2020        0.09%    passed     99.99%
+ 433  Singapore_X_X_768_X_X_2020                        0.40%    passed     99.98%
+ 434  Singapore_X_X_846_X_X_2020                        0.41%    passed    100.00%
+ 435  India_X_X_TG-CCMB-J021_X_X_2020                   0.17%    passed     99.99%
+ 436  Iceland_X_X_13_X_X_2020                           1.77%    passed     98.71%
+ 437  Japan_X_X_PG-0119_X_X_2020                        0.37%    passed     99.94%
+ 438  Australia_X_X_VIC509_X_X_2020                     0.28%    passed     99.91%
+ 439  Thailand_X_X_SI203285-NT_X_X_2020                 0.28%    passed     99.97%
+ 440  Wales_X_X_PHWC-24929_X_X_2020                     4.79%    passed     99.77%
+ 441  USA_X_X_WA-UW-1919_X_X_2020                       0.17%    passed    100.00%
+ 442  USA_X_X_WA-S1371_X_X_2020                         0.50%    passed     99.84%
+ 443  Wales_X_X_PHWC-2C2EA_X_X_2020                     1.14%    passed     99.70%
+ 444  Wales_X_X_PHWC-342FE_X_X_2020                     1.74%    passed     99.77%
+ 445  USA_X_X_UT-UPHL-04852_X_X_2020                    1.01%    passed     99.84%
+ 446  USA_X_X_UT-02571_X_X_2020                         0.88%    passed     99.81%
+ 447  USA_X_X_UT-034_X_X_2020                           0.38%    passed     99.68%
+ 448  USA_X_X_UT-03186_X_X_2020                         1.09%    passed     99.89%
+ 449  Wales_X_X_PHWC-2C2DB_X_X_2020                     2.23%    passed     99.15%
+ 450  Wales_X_X_PHWC-26620_X_X_2020                     0.72%    passed     99.70%
+ 451  Wales_X_X_PHWC-32D59_X_X_2020                     1.68%    passed     99.74%
+ 452  Wales_X_X_PHWC-31D78_X_X_2020                     2.72%    passed     98.92%
+ 453  England_X_X_MILK-9AB727_X_X_2020                  0.00%    passed     99.65%
+ 454  England_X_X_LIVE-A4CDD_X_X_2020                   0.11%    passed     99.53%
+ 455  England_X_X_LIVE-9B019_X_X_2020                   3.87%    passed     99.85%
+ 456  USA_X_X_NM-DOH-2020312737_X_X_2020                0.15%    passed     99.71%
+ 457  England_X_X_QEUH-9AF1DA_X_X_2020                  0.00%    passed     99.72%
+ 458  USA_X_X_VA-DCLS-1091_X_X_2020                     0.14%    passed     99.70%
+ 459  USA_X_X_TX-DSHS-0594_X_X_2020                     2.40%    passed     99.27%
+ 460  England_X_X_MILK-9A8809_X_X_2020                  0.00%    passed     99.52%
+ 461  Wales_X_X_PHWC-47D8F3_X_X_2020                    0.13%    passed     99.80%
+ 462  England_X_X_NORW-E6F7C_X_X_2020                   1.01%    passed     99.28%
+ 463  England_X_X_QEUH-98FD54_X_X_2020                  3.05%    passed     99.70%
+ 464  USA_X_X_MD-MDH-0042_X_X_2020                      0.18%    passed     99.96%
+ 465  England_X_X_QEUH-9B897C_X_X_2020                  0.41%    passed     99.94%
+ 466  USA_X_X_MN-MDH-1371_X_X_2020                      0.15%    passed     99.98%
+ 467  USA_X_X_CA-UW-1296_X_X_2020                       0.41%    passed     99.87%
+ 468  USA_X_X_MN-MDH-1381_X_X_2020                      0.26%    passed     99.90%
+ 469  Australia_X_X_VIC1829_X_X_2020                    0.56%    passed     99.95%
+ 470  England_X_X_QEUH-96F6F5_X_X_2020                  0.40%    passed     99.98%
+ 471  Scotland_X_X_QEUH-A00C3F_X_X_2020                 0.40%    passed     99.99%
+ 472  England_X_X_ALDP-9FC87F_X_X_2020                  0.82%    passed     99.94%
+ 473  Ireland_X_X_WD-NVRL-72IRL08037_X_X_2020           0.40%    passed     99.97%
+ 474  England_X_X_QEUH-9DCC4C_X_X_2020                  0.40%    passed     99.96%
+ 475  England_X_X_NOTT-11417E_X_X_2020                  0.41%    passed     99.95%
+ 476  England_X_X_QEUH-A1FC88_X_X_2020                  0.40%    passed     99.96%
+ 477  Wales_X_X_MILK-9E10FD_X_X_2020                    0.40%    passed     99.96%
+ 478  England_X_X_QEUH-9B7F3F_X_X_2020                  0.40%    passed     99.96%
+ 479  England_X_X_ALDP-A2FC76_X_X_2020                  0.40%    passed     99.97%
+ 480  England_X_X_QEUH-9DAC5D_X_X_2020                  0.40%    passed     99.96%
+ 481  England_X_X_ALDP-A2DEAF_X_X_2020                  0.40%    passed     99.95%
+ 482  England_X_X_NOTT-114B07_X_X_2020                  1.52%    passed     98.98%
+ 483  England_X_X_ALDP-A2DE90_X_X_2020                  0.41%    passed     99.97%
+ 484  England_X_X_QEUH-9F5C98_X_X_2020                  0.40%    passed     99.92%
+ 485  England_X_X_ALDP-A2E257_X_X_2020                  0.40%    passed     99.95%
+ 486  England_X_X_MILK-9A8FC8_X_X_2020                  0.40%    passed     99.97%
+ 487  England_X_X_NOTT-114493_X_X_2020                  0.92%    passed     98.10%
+ 488  Belgium_X_X_ULG-10325_X_X_2020                    0.40%    passed     99.99%
+ 489  England_X_X_ALDP-A2ED29_X_X_2020                  0.40%    passed     99.99%
+ 490  England_X_X_MILK-9714F6_X_X_2020                  0.40%    passed     99.98%
+ 491  England_X_X_QEUH-96A223_X_X_2020                  0.40%    passed     99.99%
+ 492  England_X_X_QEUH-9605D9_X_X_2020                  0.40%    passed     99.99%
+ 493  Wales_X_X_ALDP-9C5138_X_X_2020                    0.40%    passed     99.99%
+ 494  England_X_X_ALDP-A2F53F_X_X_2020                  0.40%    passed     99.99%
+ 495  England_X_X_ALDP-A2E4CA_X_X_2020                  0.40%    passed     99.94%
+ 496  England_X_X_ALDP-9BEDC5_X_X_2020                  0.40%    passed     99.95%
+ 497  England_X_X_ALDP-A2E776_X_X_2020                  0.40%    passed     99.91%
+ 498  England_X_X_QEUH-960AF8_X_X_2020                  0.40%    passed     99.98%
+ 499  England_X_X_ALDP-A2EA04_X_X_2020                  0.40%    passed     99.97%
+ 500  Scotland_X_X_QEUH-98F10D_X_X_2020                 0.40%    passed     99.96%
+ 501  Scotland_X_X_QEUH-A0117B_X_X_2020                 0.40%    passed     99.96%
+ 502  England_X_X_ALDP-A2F4BA_X_X_2020                  0.40%    passed     99.95%
+ 503  Ireland_X_X_KE-NVRL-73IRL25972_X_X_2020           0.40%    passed     99.98%
+ 504  England_X_X_ALDP-A2EAE6_X_X_2020                  0.40%    passed     99.99%
+ 505  England_X_X_ALDP-A2FBE2_X_X_2020                  0.40%    passed     99.97%
+ 506  England_X_X_ALDP-A2E8EC_X_X_2020                  0.40%    passed     99.96%
+ 507  England_X_X_ALDP-A2FC1C_X_X_2020                  0.40%    passed     99.96%
+ 508  England_X_X_QEUH-9D0589_X_X_2020                  0.40%    passed     99.97%
+ 509  England_X_X_QEUH-96DE86_X_X_2020                  0.40%    passed     99.98%
+ 510  Scotland_X_X_QEUH-A009FC_X_X_2020                 1.29%    passed     99.96%
+ 511  England_X_X_ALDP-A2E62E_X_X_2020                  0.40%    passed     99.96%
+ 512  England_X_X_ALDP-9B5B79_X_X_2020                  0.40%    passed     99.93%
+ 513  England_X_X_MILK-9A68DE_X_X_2020                  0.41%    passed     99.99%
+ 514  England_X_X_QEUH-A1DF90_X_X_2020                  0.40%    passed     99.92%
+ 515  Scotland_X_X_QEUH-9BA8F5_X_X_2020                 0.00%    passed     99.61%
+ 516  Scotland_X_X_QEUH-9AD0C0_X_X_2020                 0.00%    passed     99.63%
+ 517  England_X_X_ALDP-9D9632_X_X_2020                  0.00%    passed     99.69%
+ 518  Wales_X_X_PHWC-16ED80_X_X_2020                    0.19%    passed     99.78%
+ 519  Wales_X_X_PHWC-16E4B8_X_X_2020                    0.13%    passed     99.73%
+ 520  England_X_X_QEUH-9B0BAB_X_X_2020                  0.01%    passed     99.75%
+ 521  England_X_X_ALDP-9FDD60_X_X_2020                  0.96%    passed     99.98%
+ 522  Wales_X_X_PHWC-16BB89_X_X_2020                    0.10%    passed    100.00%
+ 523  Wales_X_X_PHWC-16EA98_X_X_2020                    0.21%    passed     99.97%
+ 524  Wales_X_X_PHWC-16E245_X_X_2020                    0.22%    passed     99.97%
+ 525  Spain_X_X_VC-IBV-98006466_X_X_2020                2.93%    passed     99.26%
+ 526  England_X_X_ALDP-9D96F6_X_X_2020                  0.04%    passed     99.87%
+ 527  Wales_X_X_PHWC-47CD8C_X_X_2020                    0.14%    passed     99.52%
+ 528  Wales_X_X_PHWC-47D37A_X_X_2020                    0.30%    passed     99.83%
+ 529  India_X_X_TG-CCMB-L1026_X_X_2020                  0.26%    passed     99.92%
+ 530  Wales_X_X_PHWC-363AE_X_X_2020                     0.78%    passed    100.00%
+ 531  USA_X_X_UT-08619_X_X_2020                         0.88%    passed     99.94%
+ 532  England_X_X_BRIS-128F04_X_X_2020                  1.40%    passed     99.96%
+ 533  Netherlands_X_X_ZuidHolland_7_X_X_2020            0.41%    passed     99.97%
+ 534  mink_X_X_Netherlands_X_X_NB02_index_X_X_2020      0.10%    passed     99.75%
+ 535  Scotland_X_X_GCVR-16FC37_X_X_2020                 3.10%    passed     99.36%
+ 536  USA_X_X_LA-EVTL261_X_X_2020                       0.21%    passed     99.93%
+ 537  England_X_X_ALDP-A2EE17_X_X_2020                  0.40%    passed     99.93%
+ 538  mink_X_X_Netherlands_X_X_NB-EMC-33-3_X_X_2020     2.90%    passed     97.00%
+ 539  Canada_X_X_NS-NML-1218_X_X_2020                   0.77%    passed     99.95%
+ 540  Canada_X_X_MB-NML-1176_X_X_2020                   0.56%    passed     99.95%
+ 541  Canada_X_X_MB-NML-1003_X_X_2020                   0.57%    passed     99.98%
+ 542  Netherlands_X_X_NA_506_X_X_2020                   7.30%    passed     96.38%
+ 543  USA_X_X_WA-UW-12875_X_X_2020                      0.18%    passed     99.10%
+ 544  Singapore_X_X_1047_X_X_2020                       0.57%    passed     99.86%
+ 545  USA_X_X_WA-UW-10438_X_X_2020                      0.01%    passed     99.12%
+ 546  Wales_X_X_PHWC-16296A_X_X_2020                    3.05%    passed     99.18%
+ 547  Turkey_X_X_KU-008_X_X_2020                        0.51%    passed     99.99%
+ 548  Switzerland_X_X_BE-ETHZ-250063_X_X_2020           0.27%    passed     99.97%
+ 549  Wales_X_X_PHWC-16C924_X_X_2020                    0.23%    passed     99.96%
+ 550  England_X_X_QEUH-9D0F03_X_X_2020                  0.86%    passed     99.90%
+ 551  India_X_X_GJ-GBRC53_X_X_2020                      0.25%    passed     99.99%
+ 552  Norway_X_X_3017_X_X_2020                          0.41%    passed     99.53%
+ 553  England_X_X_LOND-D9880_X_X_2020                   1.90%    passed     99.10%
+ 554  USA_X_X_CA-SR0187_X_X_2020                        0.33%    passed     99.43%
+ 555  Wales_X_X_PHWC-2EB29_X_X_2020                     2.20%    passed     99.42%
+ 556  Italy_X_X_CAM-IZSM-43083_X_X_2020                 0.23%    passed     99.98%
+ 557  England_X_X_20102000604_X_X_2020                  1.23%    passed     99.69%
+ 558  England_X_X_202822171_X_X_2020                    0.57%    passed     99.69%
+ 559  Wales_X_X_PHWC-26505_X_X_2020                     3.82%    passed     99.02%
+ 560  England_X_X_LIVE-A6127_X_X_2020                   1.54%    passed     99.86%
+ 561  Denmark_X_X_SSI-102_X_X_2020                      0.53%    passed     99.40%
+****  TOTAL                                             0.62%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.338 seconds
+
+NOTE: 50 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -63134.114
+2. Current log-likelihood: -62153.437
+Optimal log-likelihood: -62153.373
+Rate parameters:  A-C: 0.21529  A-G: 0.73475  A-T: 0.10832  C-G: 0.20042  C-T: 2.24183  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 2 rounds (10.571 sec)
+Computing ML distances based on estimated model parameters... 25.362 sec
+Computing BIONJ tree...
+0.411 seconds
+Log-likelihood of BIONJ tree: -62157.149
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -62150.210
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -62119.071
+Finish initializing candidate tree set (4)
+Current best tree score: -62119.071 / CPU time: 17.174
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -62119.071
+Optimal log-likelihood: -62119.067
+Rate parameters:  A-C: 0.21663  A-G: 0.73343  A-T: 0.10907  C-G: 0.19883  C-T: 2.24141  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (1.071 sec)
+BEST SCORE FOUND : -62119.067
+Total tree length: 0.070
+
+Total number of iterations: 2
+CPU time used for tree search: 17.003 sec (0h:0m:17s)
+Wall-clock time used for tree search: 17.185 sec (0h:0m:17s)
+Total CPU time used: 55.578 sec (0h:0m:55s)
+Total wall-clock time used: 55.854 sec (0h:0m:55s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Mon Oct 26 08:05:24 2020
