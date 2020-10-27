@@ -1,6 +1,6 @@
 # Welcome to VIRALIZER.
 
-This repository contains the code and the software involved in creating the VIRALIZER webpage. To view our final product, click the link below.
+This repository contains the software involved in creating the VIRALIZER webpage, as well as the code behind our genetic algorithm. To view our final product, click the link below.
 
 [insert link here]
 
