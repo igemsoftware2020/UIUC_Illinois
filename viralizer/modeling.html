@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="UIUC iGEM 'Viralizer' Software">
+    <meta name="keywords" content="iGEM 2020, UIUC, Viralizer, UIUC iGEM, UIUC iGEM 2020, iGEM">
+    <meta name="author" content="UIUC iGEM">
+    <title>Viralizer | Modeling</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/modeling.css">
+    <link rel="stylesheet" href="CSS/searchbar.css">
+    <link rel="stylesheet" href="CSS/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/viewer.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-2">
+            <div id="branding">
+                <a href="main_page.html"><img src="images/viralizer_text.png"
+                  onmouseover="this.src = 'images/viralizer_alt.png';"
+                  onmouseout="this.src = 'images/viralizer_text.png';"></a>
+            </div>
+
+            <div class="search-box">
+              <input type="text" name="" class="search-txt" placeholder="Search..."/>
+             <a class="search-btn">
+              <i class="far fa-search"></i>
+             </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="main_page.html">Home</a></li>
+                    <li><a href="database.html">Database</a></li>
+                    <li class="current-solo"><a href="modeling.html">Modeling</a></li>
+                    <li><a href="phylogenetics.html">Phylogenetics</a></li>
+                    <li><a href="information.html">Information</a></li>
+                </ul>
+            </nav>
+
+            <div id="branding-2">
+                <a href="main_page.html"><img src="images/virus.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="modeling_background">
+      <div id="main_app">
+        <div id="app"></div>
+        <script type="text/javascript" src="js/viewer.js"></script>
+        <script type="text/javascript">
+            var viewer = new molstar.Viewer('app', {
+                layoutIsExpanded: false,
+                layoutShowControls: false,
+                layoutShowRemoteState: false,
+                layoutShowSequence: true,
+                layoutShowLog: false,
+                layoutShowLeftPanel: true,
+
+                viewportShowExpand: true,
+                viewportShowSelectionMode: false,
+                viewportShowAnimation: false,
+
+                pdbProvider: 'rcsb',
+                emdbProvider: 'rcsb',
+            });
+            viewer.loadPdb("6X2A");
+        </script>
+      </div>
+
+        <div class = "container-title">
+          <div id="info">
+            <h1> Visualize | Mutated Spike Models</h1>
+              <div class="slider">
+                  <div class="slide current">
+                    <img src="images/modeling_gallery/room1-small.jpeg">
+                  </div>
+
+                  <div class="slide">
+                    <img src="images/modeling_gallery/room2-small.jpeg">
+                  </div>
+
+                  <div class="slide">
+                    <img src="images/modeling_gallery/room3-small.jpeg">
+                  </div>
+
+                  <div class="slide">
+                  </div>
+
+                  <div class="slide">
+                  </div>
+                </div>
+                <div class="buttons">
+                  <button id="prev"><i class="fas fa-arrow-left"></i></button>
+                  <button id="next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <script src="js/gallery.js"></script>
+            <h2> View <span style="color: orange">Information</span> For Tutorials</h2>
+          </div>
+      </div>
+    </div>
+</body>
+</html>
